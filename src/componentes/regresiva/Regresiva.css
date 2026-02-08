@@ -1,0 +1,62 @@
+.countdown {
+    width: 100%;
+    padding: 4rem 0;
+    background-color: #ffffff; /* fondo blanco */
+    text-align: center;
+  }
+  
+  /* Título */
+  .countdown__title {
+    margin-bottom: 2rem;
+    color: #6b7c59; /* oliva */
+    font-size: 2rem;
+  }
+
+  /* Contenedor de los números */
+  .countdown__time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: clamp(1rem, 5vw, 3rem);
+    flex-wrap: wrap; /* 🔑 evita que se corte */
+  }
+  
+  /* Cada bloque (días, horas, etc.) */
+  .countdown__time div {
+    display: flex;
+    flex-direction: column; /* número arriba, texto abajo */
+    align-items: center;
+    min-width: 70px;
+  }
+  
+  /* NÚMEROS */
+  .countdown__time span {
+    font-weight: 600;
+    color: #6b7c59; /* oliva */
+    line-height: 1;
+    font-size: clamp(2.2rem, 7vw, 3rem);
+  }
+  
+  /* TEXTO debajo */
+  .countdown__time small {
+    margin-top: 0.3rem;
+    font-size: 0.85rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #6b7c59; /* oliva */
+    opacity: 0.85;
+  }
+  
+  /* Subtítulo */
+  .countdown__subtitle {
+    margin-top: 2rem;
+    color: #6b7c59;
+    opacity: 0.9;
+  }
+  
+ /* Cuando llega el día */
+.countdown__ended {
+    color: #6b7c59;
+    font-size: 3rem;
+  }
+  

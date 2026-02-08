@@ -1,0 +1,39 @@
+.presentacion{
+    text-align: center;
+    background-color: rgb(113, 141, 66);
+    color: white;
+    padding: 2rem;
+    
+}
+
+.presentacion::before,
+.presentacion::after {
+  content: "";
+  display: block;
+  width: 72px;
+  height: 1px;
+  margin: 0 auto;
+  background: linear-gradient(
+    to right,
+    transparent,
+    rgba(255,255,255,0.7),
+    transparent
+  );
+}
+
+/* línea superior */
+.presentacion::before {
+  margin-bottom: 2rem;
+}
+
+/* línea inferior */
+.presentacion::after {
+  margin-top: 2rem;
+}
+
+  
+
+.noscasamos{
+    margin-bottom: 1.5rem;
+}
+

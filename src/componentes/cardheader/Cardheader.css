@@ -1,0 +1,10 @@
+.cardbody {
+    text-align: center;
+    background-color: rgb(113, 141, 66);
+}
+
+.cardtext{
+    color: aliceblue;
+    font-size: 2rem;
+   
+}
