@@ -1,6 +1,6 @@
 // src/componentes/rsvp/RSVP.jsx
 import { useState } from "react";
-import "./RSVP.css";
+import "./Rsvp.css";
 
 export default function RSVP() {
   const [status, setStatus] = useState("idle"); // idle | sending | success | error
