@@ -10,7 +10,10 @@ function Cierre() {
         muted
         playsInline
       >
-        <source src="/videos/pareja.mp4" type="video/mp4" />
+        <source
+    src={`${import.meta.env.BASE_URL}videos/pareja.mp4`}
+    type="video/mp4"
+  />
       </video>
 
       <div className="cierre__overlay">
