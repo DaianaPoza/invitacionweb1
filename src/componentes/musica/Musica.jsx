@@ -38,7 +38,10 @@ function Musica() {
 
       {/* Audio global */}
       <audio ref={audioRef} loop preload="none">
-        <source src="/music/ordinary.mp3" type="audio/mpeg" />
+      <source
+    src={`${import.meta.env.BASE_URL}music/ordinary.mp3`}
+    type="audio/mpeg"
+  />
       </audio>
     </>
   );

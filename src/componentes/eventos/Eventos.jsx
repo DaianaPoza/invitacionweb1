@@ -18,7 +18,7 @@ function Evento({ icon, tipo, lugar, hora, direccion, ciudad, mapUrl }) {
         rel="noopener noreferrer"
         className="evento__btn"
       >
-        CÓMO LLEGAR
+        Cómo llegar
       </a>
     </div>
   );
@@ -29,7 +29,7 @@ function Eventos() {
     <section className="eventos">
       <Evento
         icon={<span className="icon">💍</span>}
-        tipo="CEREMONIA"
+        tipo="Ceremonia"
         lugar="Basílica del Santísimo Sacramento"
         hora="20:00 hs"
         direccion="San Martín 1035"
@@ -41,7 +41,7 @@ function Eventos() {
 
       <Evento
         icon={<span className="icon">🥂</span>}
-        tipo="FIESTA"
+        tipo="Fiesta"
         lugar="Hotel Hilton Buenos Aires"
         hora="21:00 hs"
         direccion="Macacha Güemes 351"
